@@ -40,6 +40,7 @@ echo $OUTPUT->doctype() ?>
     <link rel="shortcut icon" href="<?php echo $OUTPUT->favicon(); ?>" />
     <?php echo $OUTPUT->standard_head_html() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 </head>
 
 <body
@@ -54,23 +55,20 @@ echo $OUTPUT->doctype() ?>
 <div class="">
 
     <div id="home-page" class="page">
-        <div class="container fluid">
-            <div>
-                <div class="block-background-img">
-                    <div class="row">
-                        <div class="columns small-12  large-4 medium-8">
-                            <div class="img">
-                                <img src="/theme/klass/img/layer-4.png" alt="">
-                                <img src="/theme/klass/img/layer-3.png" alt="">
-                            </div>
-                            <div class="add-kurs">
-                                <a href="#">Присоединиться к курсу</a>
-                            </div>
+        <div>
+            <div class="block-background-img">
+                <div class="row">
+                    <div class="columns small-12  large-4 medium-8">
+                        <div class="img">
+                            <img src="/theme/klass/img/layer-4.png" alt="">
+                            <img src="/theme/klass/img/layer-3.png" alt="">
+                        </div>
+                        <div class="add-kurs">
+                            <a href="#">Присоединиться к курсу</a>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
         <div class="block-first-stage">
             <div class="row mob">
@@ -2393,6 +2391,7 @@ echo $OUTPUT->doctype() ?>
         }
       ?>
 </div>
+
 <!--Custom theme slider-->
 
 <!--Custom theme Who We Are block-->

@@ -21,7 +21,7 @@ $infolink = theme_klass_get_setting('infolink');
                         <div class="columns  medium-3 medium-order-1 medium-offset-0 small-8 small-offset-2 small-order-4">
                             <div class="logo-block">
                                 <div class="logo-footer">
-                                    <img src="img/l.svg" alt="logo">
+                                    <img src="/theme/klass/img/l.svg" alt="">
                                 </div>
                                 <p class="copirite">
                                     Сайт академии Дхарма-вичара.<br>
